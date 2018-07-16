@@ -72,6 +72,7 @@ img{max-width: 100%;}
     font-size: 21px;
     line-height: 27px;
     margin-bottom: 0;
+    transition: all .5s ease;
 }
 
 .form-check {font-size: 12px;padding: 0;margin-top: 7px;word-spacing: 1px;}
@@ -118,7 +119,7 @@ label.form-check-label {
 }
 .type-logo {
     /* height: 100%; */
-    border-right: 3px solid var(--color1);
+    border-right: 2px solid var(--color1);
     width: 101px;
     padding-right: 10px;
     margin-left: -7px;
@@ -136,6 +137,7 @@ label.form-check-label {
     font-size: 19px;
     text-transform: uppercase;
     word-spacing: 4px;
+    transition: all .5s ease;
 }
 .stamp {
     margin-top: 40px;
@@ -194,4 +196,17 @@ p.desc {
 
 .type:last-of-type {
     margin-left: -44px;
+}
+footer{
+    background: url('../imgs/footer.png');
+    height: 200px;
+    background-size: cover;
+    margin-top: 23px;
+}
+.form button.btn:hover {
+    background: #555555;
+}
+
+.type button.btn:hover {
+    background: #5ec039;
 }
