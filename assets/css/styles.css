@@ -122,6 +122,7 @@ label.form-check-label {
     width: 101px;
     padding-right: 10px;
     margin-left: -7px;
+    height: 284px;
 }
 
 .type button.btn {
@@ -164,4 +165,33 @@ p.desc {
 }
 
 .type-logo img {
+}
+.type-title {
+    font-size: 25px;
+    margin-top: 7px;
+    margin-bottom: 1px;
+}
+
+.type-detail {
+    padding-left: 29px;
+}
+
+.type-slogan {
+    font-size: 20px;
+}
+
+.time {
+    width: 145px;
+}
+
+.type-detail p {
+    font-size: 20px;
+    width: 100%;
+    float: left;
+    padding-right: 26px;
+    word-spacing: -1px;
+}
+
+.type:last-of-type {
+    margin-left: -44px;
 }
