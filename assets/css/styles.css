@@ -34,7 +34,7 @@ p.desc{font-size:19px;padding-top:17px;padding-left: 190px;padding-right:50px;}
 footer{background:url(../imgs/footer.png);height: 150px;background-size: 100% 150px;margin-top:23px;background-repeat: no-repeat;}
 .form button.btn:hover{background:#555}
 .type button.btn:hover{background:#5ec039}
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
 .bg.banner{background-position:center;background-size: 200% 570px;}
 .container{width:95%}
 .type-logo{margin-left:0;height:240px}
