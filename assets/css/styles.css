@@ -3,11 +3,11 @@ body{font-family:var(--main-font);color:var(--textColor)}
 img{max-width:100%}
 .container-fluid{padding:0}
 .mobile{display:none}
-.bg.banner{background:url(../imgs/header.png);background-position:-209px 0;padding-top:80px;margin-top:-71px;float:left;width:100%;background-repeat:no-repeat}
+.bg.banner{background:url(../imgs/header.png);background-position: 0 center;padding-top:80px;margin-top:-71px;float:left;width:100%;background-repeat:no-repeat;background-size: 100% 600px;}
 .logo{width:211px;margin-top:33px}
 .banner .container{text-align:center}
 .banner-left{padding-left:54px;padding-top:53px}
-.slogan{font-size:53px;font-weight:lighter;-webkit-font-smoothing:antialiased;padding-top:43px;line-height:68px;padding-left:95px}
+.slogan{font-size:53px;font-weight:lighter;-webkit-font-smoothing:antialiased;padding-top:43px;line-height:68px;padding-left: 135px;}
 .slogan b{display:block}
 .form{background:var(--color1);padding:3px 43px;width:360px;margin-left:-28px;margin-top:44px;padding-top:1px;box-shadow:18px 16px #62666a}
 .fields-cont>*{display:block;width:100%;border:0;margin:10px 0;padding:6px 15px;margin-bottom:17px;font-size:17px}
@@ -21,7 +21,7 @@ label.form-check-label{width:calc(100% - 37px);color:#fff;text-align:left}
 .type-logo{border-right:2px solid var(--color1);width:101px;padding-right:10px;margin-left:-7px;height:284px}
 .type button.btn{background:var(--color2);width:calc(100% - 32px);color:#fff;margin-left:-22px;height:48px;margin-top:10px;box-shadow:2px 3px #aaa6a0;font-size:19px;text-transform:uppercase;word-spacing:4px;transition:all .5s ease}
 .stamp{margin-top:40px;margin-left:90px}
-p.desc{font-size:19px;padding-top:17px;padding-left:140px;padding-right:50px}
+p.desc{font-size:19px;padding-top:17px;padding-left: 190px;padding-right:50px;}
 .form .title{margin-bottom:22px;font-size:25px;margin-top:17px}
 .slogan:after{content:"...";color:var(--color1);line-height:1px;font-size:36px;letter-spacing:6px;height:7px;display:block;margin-top:-7px}
 .type{margin-top:30px}
@@ -31,11 +31,11 @@ p.desc{font-size:19px;padding-top:17px;padding-left:140px;padding-right:50px}
 .time{width:145px;max-width:40%}
 .type-detail p{font-size:20px;width:100%;float:left;padding-right:26px;word-spacing:-1px}
 .type:last-of-type{margin-left:-44px}
-footer{background:url(../imgs/footer.png);height:200px;background-size:cover;margin-top:23px}
+footer{background:url(../imgs/footer.png);height: 150px;background-size: 100% 150px;margin-top:23px;background-repeat: no-repeat;}
 .form button.btn:hover{background:#555}
 .type button.btn:hover{background:#5ec039}
 @media screen and (max-width: 1200px) {
-.bg.banner{background-position:center}
+.bg.banner{background-position:center;background-size: 200% 570px;}
 .container{width:95%}
 .type-logo{margin-left:0;height:240px}
 .type-detail{padding-left:40px}
